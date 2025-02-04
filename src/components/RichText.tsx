@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const RichText = {
   types: {
-    image: ({ value }: any) => {
+    image: ({ value }:any) => {
       return (
         <div className="flex items-center justify-center">
           <Image
